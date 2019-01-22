@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AD325 IA#2 Yun F. Sui</title>
+    <link rel="stylesheet" href="CSS/temp.css">
+    <script src="myJS.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Neque porro quisquam</h1>
+        </header>
+
+        <div class="content">
+        <main>
+            <p>Tell me something about you</p>
+            <form name = welcomeForm action="welcome.php" onsubmit="return validateForm()" method="GET">
+                Name (required): <input type="text" name="name"><br>
+                Email (required): <input type="text" name="email"><br>
+                Phone Number (optional): <input type="int" name="phoneNumber"><br>
+                State of Residence (optional): <input type="text" name="stateOfResidence"><br>
+                <input type="submit">
+            </form>
+        </main>
+
+        <aside>
+            <img src="images/index_pic.jpg" alt="This is a Picture">
+        </aside>
+        </div>
+
+        <footer>
+            <div id="time">
+                <button onclick = "dT()" id="dateTime">Click Me</button>
+            </div>
+        </footer>
+    </div>
+</body>
